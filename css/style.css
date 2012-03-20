@@ -1,0 +1,214 @@
+
+/* basic styling and commonly used classes */
+body, html, input, textarea {font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#656565;}
+.set-size {width:980px;margin:0 auto;}
+p {font-size:14px;line-height:22px;padding:0 0 20px 0;}
+strong {font-weight:bold;}
+em {font-style:italic;font-family:"Times New Roman", Times, serif;}
+.align-center {text-align:center;}
+a, a:hover, a:focus {cursor:pointer;outline:none;}
+
+blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:0 0 0 55px;min-height:40px;}
+
+.clear {clear:both;display:block;font-size:0;line-height:0;}
+.float-left {float:left;}
+.float-right {float:right;}
+/* -- */
+
+/* column system */
+.float-left.haspadding {padding-right:20px;}
+.column-160 {width:160px;}
+.column-180 {width:180px;}
+.column-220 {width:220px;}
+.column-300 {width:300px;}
+.column-380 {width:380px;}
+.column-460 {width:460px;}
+.column-540 {width:540px;}
+.column-620 {width:620px;}
+/* -- */
+
+/* container elements */
+#container .set-size {padding:100px 0 0 0;}
+#container h1 {font-size:32px;padding:0 0 25px 0;line-height:32px;}
+#container h2 {font-size:28px;padding:0 0 25px 0;line-height:28px;}
+#container h3 {font-size:24px;padding:0 0 25px 0;line-height:24px;}
+#container h4 {font-size:20px;padding:0 0 20px 0;line-height:20px;}
+#container h5 {font-size:18px;padding:0 0 20px 0;line-height:18px;}
+#container h6 {font-size:16px;padding:0 0 20px 0;line-height:16px;}
+#container .pink {color:#e52e48;}
+
+#container .btn {height:32px;padding:0 30px;line-height:32px;font-size:13px;display:inline-block;position:relative;cursor:pointer;}
+#container .btn.rounded {border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;}
+#container .btn.silver {background:url(../images/btn-silver.jpg) repeat-x 0 0;border:1px solid #cfcece;color:#656565;}
+#container .btn.blue {background:url(../images/btn-blue.jpg) repeat-x 0 0;border:1px solid #45c4df;color:#0095c3;}
+#container .btn:hover {background-position:0 -32px;}
+
+#container .btn2 {height:32px;padding:0 12px;line-height:32px;font-size:12px;font-weight:bold;display:inline-block;position:relative;cursor:pointer; position: absolute; top:640px; left:948px;z-index:850;}
+#container .btn2.rounded {border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;}
+#container .btn2.silver {background:url(../images/btn-silver.jpg) repeat-x 0 0;border:1px solid #cfcece;color:#656565;}
+#container .btn2:hover {background-position:0 -32px;}
+
+#container #gonext {background:url(../images/gonext.png) no-repeat 0 0;width:30px;height:45px;cursor:pointer;position: absolute; top:600px; left:949px;z-index:850;}
+#container #gonext:hover {background-position:0 -45px;}
+
+
+/* -- */
+
+/* top */
+#top {height:64px;background:#fff;position:fixed;top:0;left:0;width:100%;z-index:800;}
+#top .set-size {position:relative;}
+
+#top h1#logo {float:left;}
+#top h1#logo a {background:url(../images/logo.png) no-repeat top left;width:194px;height:46px;display:block;text-indent:-9999px;}
+
+#top #menu ul{float:right;padding:17px 40px 0 0;}
+#top #menu ul li {padding:0 5px;float:left;display:block;}
+#top #menu ul li.disabled {display:none;}
+#top #menu ul li a {font-size:13px;font-weight:bold;height:25px;line-height:25px;padding:0 10px;display:block;float:left;color:#656565;cursor:pointer;}
+#top #menu ul li a:hover, #top #menu ul li.current a {background:url(../images/top-li-a.jpg) repeat-x;border:1px solid #d0cece;padding:0 9px;height:24px;line-height:24px;}
+#top #menu .rounded {border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;position:relative;}
+
+#top #hire {background:url(../images/hire-me.png) no-repeat top left;width:31px;height:77px;position:absolute;top:0;right:0;display:block;cursor:pointer;}
+
+.shadow {background:url(../images/top-shadow.png) repeat-x;height:35px;position:fixed;top:64px;width:100%;}
+/* -- */
+
+/* scroll navigation */
+#nav {}
+#nav ul {display:block;position:fixed;right:20px;width:11px;z-index:850;}
+#nav ul li {display:block;padding:2px 0;line-height:11px;float:left;}
+#nav ul li a {background:url(../images/nav-li-a.png) no-repeat 0 0;height:11px;width:11px;display:block;cursor:pointer;}
+#nav ul li a:hover, #nav ul li.current a {background-position:0 -11px;}
+
+/* -- */
+
+/* section backgrounds */
+.section, .px {min-height:860px;}
+.section .set-size {position:relative;z-index:600;}
+.overflow {position:relative;z-index:500;width:980px;margin:0 auto;min-height:860px;}
+#contact .overflow, #contact .px, #contact {min-height:660px;}
+
+#home {background:url(../images/home-bg.jpg) repeat top center;}
+#about {background-color:#1b1b1b;}
+#services {background:url(../images/services-bg.jpg) repeat top center;}
+#portfolio {background:url(../images/folio1-bg.jpg) no-repeat top center;}
+#contact {background:url(../images/contact-bg.jpg) repeat top center;}
+/* -- */
+
+#container .section .header {padding:0 0 25px 0;}
+#container .section .header h2 {color:#e52e48;padding:0 0 5px 0;}
+#container .section .header em {font-size:12px;}
+/* -- */
+
+/* section media container */
+.section .media {text-align:center;padding-bottom:80px ;background:url(../images/folio-media-shadow.png) no-repeat bottom center;}
+/* --- */
+
+/* welcome box on #home page */
+#home .welcome {}
+#home .welcome h1 {display:block;font-size:70px;float:left;width:240px;}
+#home .welcome h2 {display:block;float:left;width:720px;color:#e52e48;font-size:26px;line-height:26px;}
+
+#home .addon {padding:450px 0 0 0;}
+#home .addon p .btn {margin-top:10px;margin-left:20px;}
+/* -- */
+
+/* lists */
+.list {}
+.list li {line-height:26px;padding:0 0 0 15px;}
+.list.blue li {background:url(../images/list-blue-li.png) no-repeat center left;}
+.list.orange li {background:url(../images/list-orange-li.png) no-repeat center left;}
+.list.red li {background:url(../images/list-red-li.png) no-repeat center left;}
+
+.list-icons {}
+.list-icons li {position:relative;padding:0 0 0 40px;}
+.list-icons li img {float:left;position:absolute;top:0;left:0;}
+
+.list-social {}
+.list-social li {float:left;padding:0 5px 0 0;}
+.list-social li a {background:url(../images/social-icons.png) no-repeat 0 0;height:24px;width:24px;display:block;float:left;}
+.list-social li.twitter a {background-position:0 0;}
+.list-social li.twitter a:hover {background-position:0 -24px;}
+.list-social li.plus-one a {background-position:-24px 0;}
+.list-social li.plus-one a:hover {background-position:-24px -24px;}
+.list-social li.facebook a {background-position:-48px 0;}
+.list-social li.facebook a:hover {background-position:-48px -24px;}
+.list-social li.forrst a {background-position:-72px 0;}
+.list-social li.forrst a:hover {background-position:-72px -24px;}
+.list-social li.dribbble a {background-position:-96px 0;}
+.list-social li.dribbble a:hover {background-position:-96px -24px;}
+.list-social li.deviant-art a {background-position:-120px 0;}
+.list-social li.deviant-art a:hover {background-position:-120px -24px;}
+.list-social li.behance a {background-position:-144px 0;}
+.list-social li.behance a:hover {background-position:-144px -24px;}
+/* -- */
+
+/* gallery */
+.gallery li {float:left;margin:0 20px 25px 0;}
+.gallery li:nth-child(4n), .gallery li.format {margin-right:0;}
+.gallery li a {border:5px solid #fff;display:block;position:relative;float:left;}
+.gallery li a span {background:url(../images/gallery-li-span.png) no-repeat top left;width:208px;height:123px;position:absolute;top:0;left:0;display:none;}
+/* -- */
+
+/* contact form */
+#contact-form {position:relative;}
+#contact-form .row {padding:5px 0;}
+#contact-form .input-text {background:url(../images/form-contact-input-text.png) no-repeat top left;width:202px;height:37px;line-height:37px;padding:0 10px;color:#656565;}
+#contact-form .input-textarea {background:url(../images/contact-form-textarea.png) no-repeat top left;width:522px;height:117px;padding:10px;resize:none;overflow:hidden;}
+#contact-form .holder {position:relative;}
+#contact-form .message {display:none;position:absolute;top:228px;left:115px;}
+#contact-form .message .top {background:url(../images/message-top.png) no-repeat top left;width:428px;height:17px;line-height:0;}
+#contact-form .message .content {background:url(../images/message-content.png) repeat-y;width:428px;padding:5px 0;}
+#contact-form .message .bottom {background:url(../images/message-bottom.png) no-repeat top left;width:428px;height:14px;line-height:0;margin-left:-1px;}
+#contact-form .message .arrow {background:url(../images/message-arrow.png) no-repeat top left;width:10px;height:18px;position:absolute;bottom:20px;left:-9px;z-index:2;}
+#contact-form #alert {padding:0 20px;}
+#contact-form #alert ul {padding:10px 0 0 0;}
+#contact-form #alert ul li {line-height:18px;}
+#contact-form .btn {font-weight:bold;}
+/* -- */
+
+/* footer */
+#footer {background:url(../images/footer-bg.jpg) repeat-x top #000;height:420px;position:relative;z-index:800;}
+#footer #gotop {background:url(../images/ribbon-top.png) no-repeat top left;width:32px;height:68px;position:absolute;top:-64px;right:0;cursor:pointer;}
+#footer .set-size {padding:30px 0;position:relative;}
+#footer p {font-size:12px; color:#5c4a41;}
+/* -- */
+
+/* parallax elements */
+#home .pximage1 {background:url(../images/home-image1.png) no-repeat center left;width:398px;position:absolute;top:0;left:-20px;}
+#home .pximage2 {background:url(../images/home-image2.png) no-repeat center left;width:372px;position:absolute;top:0;right:-20px;}
+#home .pximage3 {background:url(../images/home-image3.png) no-repeat center left;width:190px;position:absolute;top:0;left:100px;z-index:3;}
+#home .pximage4 {background:url(../images/home-image4.png) no-repeat center left;width:376px;position:absolute;top:0;left:210px;z-index:2;}
+#home .pximage5 {background:url(../images/home-image5.png) no-repeat center left;width:460px;position:absolute;top:0;left:380px;z-index:1;}
+
+#about .circles-holder {width:940px;}
+#about .pxarrows {background:url(../images/about-arrows.png) no-repeat top left;width:562px;height:263px;position:absolute;top:0;left:217px;}
+#about .circle {position:absolute;top:0px;}
+#about .pxcircle1 {background:url(../images/about-circle1.png) no-repeat center left;width:256px;height:263px;left:0;}
+#about .pxcircle2 {background:url(../images/about-circle2.png) no-repeat center left;width:247px;height:263px;left:256px;}
+#about .pxcircle3 {background:url(../images/about-circle3.png) no-repeat center left;width:219px;height:263px;left:503px;}
+#about .pxcircle4 {background:url(../images/about-circle4.png) no-repeat center left;width:231px;height:263px;left:764px;}
+#about .pximage {position:absolute;top:0;right:0;background:url(../images/about-image.jpg) no-repeat top left;width:354px;height:176px;}
+
+#gallery .pxphoto-left {background:url(../images/gallery-photo-left.png) no-repeat center left;width:368px;height:378px;position:absolute;top:0;left:-200px;}
+#gallery .pxphoto-right {background:url(../images/gallery-photo-right.png) no-repeat top left;width:390px;height:417px;position:absolute;top:0;right:-100px;}
+
+#contact .pxmyspace {background:url(../images/contact-myspace.png) no-repeat center left;width:117px;position:absolute;top:0;right:-40px;}
+#contact .pxmail {background:url(../images/contact-mail.png) no-repeat center left;width:169px;position:absolute;top:0;right:-100px;}
+#contact .pxbehance {background:url(../images/contact-behance.png) no-repeat center left;width:59px;position:absolute;top:0;right:20px;}
+#contact .pxdribbble {background:url(../images/contact-dribbble.png) no-repeat center left;width:165px;position:absolute;top:0;right:30px;}
+#contact .pxdelicious {background:url(../images/contact-delicious.png) no-repeat center left;width:64px;position:absolute;top:0;left:550px;}
+#contact .pxbuzz {background:url(../images/contact-buzz.png) no-repeat center left;width:157px;position:absolute;top:0;left:450px;z-index:1;}
+#contact .pxtwitter {background:url(../images/contact-twitter.png) no-repeat center left;width:244px;position:absolute;top:0;left:380px;z-index:2;}
+
+#services .pxcircles {background:url(../images/services-circles.png) no-repeat center left;width:1234px;position:absolute;top:0;left:-450px;}
+#services .pxcircle1 {background:url(../images/services-circle1.png) no-repeat center left;width:388px;position:absolute;top:0;left:0;}
+#services .pxcircle2 {background:url(../images/services-circle2.png) no-repeat center left;width:288px;position:absolute;top:0;left:-10px;}
+#services .pxcircle3 {background:url(../images/services-circle3.png) no-repeat center left;width:98px;position:absolute;top:0;left:200px;}
+#services .pxbrush {background:url(../images/services-brush.png) no-repeat center left;width:122px;position:absolute;top:0;left:100px;}
+#services .px3d {background:url(../images/services-3d.png) no-repeat center left;width:122px;position:absolute;top:0;left:190px;}
+#services .pxidea {background:url(../images/services-idea.png) no-repeat center left;width:122px;position:absolute;top:0;left:120px;}
+
+#portfolio .pximage-left {background:url(../images/folio-ipad-b1.png) no-repeat center left;width:600px;position:absolute;top:0;left:-120px;z-index:2;}
+#portfolio .pximage-right {background:url(../images/folio-iphone-w1.png) no-repeat center left;width:600px;position:absolute;top:0;left:200px;z-index:1;}
+/* -- */
