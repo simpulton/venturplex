@@ -86,7 +86,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 .section, .px {min-height:860px;}
 .section .set-size {position:relative;z-index:600;}
 .overflow {position:relative;z-index:500;width:980px;margin:0 auto;min-height:860px;}
-/* #contact .overflow, #contact .px, #contact {min-height:660px;} */
+#contact .overflow, #contact .px, #contact {min-height:660px;}
 
 #home {background:url(../images/home-bg.jpg) repeat top center;}
 #about {background-color:#1b1b1b;}
@@ -167,7 +167,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #contact-form .btn {font-weight:bold;}
 /* -- */
 
-/* footer *
+/* footer */
 #footer {background:url(../images/footer-bg.jpg) repeat-x top #000;height:420px;position:relative;z-index:800;}
 #footer #gotop {background:url(../images/ribbon-top.png) no-repeat top left;width:32px;height:68px;position:absolute;top:-64px;right:0;cursor:pointer;}
 #footer .set-size {padding:30px 0;position:relative;}
