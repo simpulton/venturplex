@@ -1,10 +1,78 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title></title>
+    <title>VenturPlex | Interactive Experience Agency</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.js"></script>
+    <script type="text/javascript" src="js/parallax-config.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("a.lightbox").fancybox({
+                'overlayColor':'#000',
+                'transitionIn':'elastic',
+                'transitionOut':'elastic',
+                'titlePosition':'outside'
+            });
+        });
+    </script>
+    <!-- contact form scripts & configuration, please check js/sendmail.php to set e-mail address & more params
+    <script type="text/javascript" src="js/jquery.form.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var options = {target:"#alert"};
+            $("#contact-form").ajaxForm(options);
+        });
+    </script>
+     -->
+    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/cufon-fonts.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/pie.js"></script>
+    <script type="text/javascript" src="js/pie-config.js"></script>
+    <![endif]-->
 </head>
-<body>
 
+<body>
+<!-- top -->
+<div id="top">
+    <div class="set-size">
+
+        <h1 id="logo"><a onClick="goToByScroll('home');">Scrollfolio</a></h1>
+
+        <div id="menu">
+            <ul>
+                <li class="current"><a onClick="goToByScroll('home');" class="rounded">Home</a></li>
+                <li><a onClick="goToByScroll('about');" class="rounded">About</a></li>
+                <li><a onClick="goToByScroll('services');" class="rounded">Services</a></li>
+                <li><a onClick="goToByScroll('portfolio');" class="rounded">Portfolio</a></li>
+                <li><a onClick="goToByScroll('contact');" class="rounded">Contact</a></li>
+            </ul>
+        </div>
+
+        <a onClick="goToByScroll('contact');" id="hire"></a>
+
+        <div class="clear"></div>
+    </div>
+</div>
+<!-- //top -->
+<div class="shadow"></div>
+
+<!-- navigation -->
+<div id="nav">
+    <ul>
+        <li class="current"><a onClick="goToByScroll('home');" class="rounded"></a></li>
+        <li><a onClick="goToByScroll('about');" class="rounded"></a></li>
+        <li><a onClick="goToByScroll('services');" class="rounded"></a></li>
+        <li><a onClick="goToByScroll('portfolio');" class="rounded"></a></li>
+        <li><a onClick="goToByScroll('contact');" class="rounded"></a></li>
+    </ul>
+</div>
+<!-- //navigation -->
 </body>
 </html>

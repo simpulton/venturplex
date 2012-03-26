@@ -59,7 +59,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #top .set-size {position:relative;}
 
 #top h1#logo {float:left;}
-#top h1#logo a {background:url(../images/logo.png) no-repeat top left;width:194px;height:46px;display:block;text-indent:-9999px;}
+#top h1#logo a {background:url(../images/logo.png) no-repeat top left;width:194px;height:46px;margin:9px;display:block;text-indent:-9999px;}
 
 #top #menu ul{float:right;padding:17px 40px 0 0;}
 #top #menu ul li {padding:0 5px;float:left;display:block;}
