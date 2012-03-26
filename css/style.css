@@ -86,7 +86,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 .section, .px {min-height:860px;}
 .section .set-size {position:relative;z-index:600;}
 .overflow {position:relative;z-index:500;width:980px;margin:0 auto;min-height:860px;}
-#contact .overflow, #contact .px, #contact {min-height:660px;}
+/* #contact .overflow, #contact .px, #contact {min-height:660px;} */
 
 #home {background:url(../images/home-bg.jpg) repeat top center;}
 #about {background-color:#1b1b1b;}
@@ -100,11 +100,11 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #container .section .header em {font-size:12px;}
 /* -- */
 
-/* section media container */
-.section .media {text-align:center;padding-bottom:80px ;background:url(../images/folio-media-shadow.png) no-repeat bottom center;}
+/* section media container *
+.section .media {text-align:center;padding-bottom:80px ;background:url(../images/Ffolio-media-shadow.png) no-repeat bottom center;}
 /* --- */
 
-/* welcome box on #home page */
+/* welcome box on #home page *
 #home .welcome {}
 #home .welcome h1 {display:block;font-size:70px;float:left;width:240px;}
 #home .welcome h2 {display:block;float:left;width:720px;color:#e52e48;font-size:26px;line-height:26px;}
@@ -113,7 +113,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #home .addon p .btn {margin-top:10px;margin-left:20px;}
 /* -- */
 
-/* lists */
+/* lists *
 .list {}
 .list li {line-height:26px;padding:0 0 0 15px;}
 .list.blue li {background:url(../images/list-blue-li.png) no-repeat center left;}
@@ -143,14 +143,14 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 .list-social li.behance a:hover {background-position:-144px -24px;}
 /* -- */
 
-/* gallery */
+/* gallery *
 .gallery li {float:left;margin:0 20px 25px 0;}
 .gallery li:nth-child(4n), .gallery li.format {margin-right:0;}
 .gallery li a {border:5px solid #fff;display:block;position:relative;float:left;}
 .gallery li a span {background:url(../images/gallery-li-span.png) no-repeat top left;width:208px;height:123px;position:absolute;top:0;left:0;display:none;}
 /* -- */
 
-/* contact form */
+/* contact form *
 #contact-form {position:relative;}
 #contact-form .row {padding:5px 0;}
 #contact-form .input-text {background:url(../images/form-contact-input-text.png) no-repeat top left;width:202px;height:37px;line-height:37px;padding:0 10px;color:#656565;}
@@ -167,14 +167,14 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #contact-form .btn {font-weight:bold;}
 /* -- */
 
-/* footer */
+/* footer *
 #footer {background:url(../images/footer-bg.jpg) repeat-x top #000;height:420px;position:relative;z-index:800;}
 #footer #gotop {background:url(../images/ribbon-top.png) no-repeat top left;width:32px;height:68px;position:absolute;top:-64px;right:0;cursor:pointer;}
 #footer .set-size {padding:30px 0;position:relative;}
 #footer p {font-size:12px; color:#5c4a41;}
 /* -- */
 
-/* parallax elements */
+/* parallax elements *
 #home .pximage1 {background:url(../images/home-image1.png) no-repeat center left;width:398px;position:absolute;top:0;left:-20px;}
 #home .pximage2 {background:url(../images/home-image2.png) no-repeat center left;width:372px;position:absolute;top:0;right:-20px;}
 #home .pximage3 {background:url(../images/home-image3.png) no-repeat center left;width:190px;position:absolute;top:0;left:100px;z-index:3;}

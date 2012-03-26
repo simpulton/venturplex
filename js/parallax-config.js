@@ -16,12 +16,14 @@ $(document).ready(function(){
 	$("#home").parallax("50%", 0, 0.1, true);
 	$("#about").parallax("50%", 750, 0.1, true);
 	$("#services").parallax("50%", 1500, 0.1, true);
-	$("#folio1").parallax("50%", 2250, 0.1, true);
-	$("#folio2").parallax("50%", 3000, 0.1, true);
+	$("#portfolio").parallax("50%", 2250, 0.1, true);
+	/*
+    $("#folio2").parallax("50%", 3000, 0.1, true);
 	$("#folio3").parallax("50%", 3750, 0.1, true);
 	$("#folio4").parallax("50%", 4500, 0.1, true);
 	$("#gallery").parallax("50%", 5250, 0.1, true);
 	$("#addons").parallax("50%", 6000, 0.1, true);
+	*/
 	$("#contact").parallax("50%", 6750, 0.1, true);
 	
 	$("#home .pximage1").parallax("50%", 980, 2.0, true);
@@ -57,7 +59,7 @@ $(document).ready(function(){
 	$("#services .px3d").parallax("50%", 3650, 0.3, true);
 	$("#services .pxidea").parallax("50%", 2820, 1.6, true);
 	
-	
+	/*
 	$("#folio1 .pximage-left").parallax("50%", 4100, 0.1, true);
 	$("#folio1 .pximage-right").parallax("50%", 3700, 0.4, true);
 	
@@ -69,5 +71,5 @@ $(document).ready(function(){
 	
 	$("#folio4 .pximage-left").parallax("50%", 8000, 0.1, true);
 	$("#folio4 .pximage-right").parallax("50%", 6100, 0.4, true);
-	
+	*/
 });
