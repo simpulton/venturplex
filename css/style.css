@@ -100,11 +100,11 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #container .section .header em {font-size:12px;}
 /* -- */
 
-/* section media container *
-.section .media {text-align:center;padding-bottom:80px ;background:url(../images/Ffolio-media-shadow.png) no-repeat bottom center;}
+/* section media container */
+.section .media {text-align:center;padding-bottom:80px ;background:url(../images/folio-media-shadow.png) no-repeat bottom center;}
 /* --- */
 
-/* welcome box on #home page *
+/* welcome box on #home page */
 #home .welcome {}
 #home .welcome h1 {display:block;font-size:70px;float:left;width:240px;}
 #home .welcome h2 {display:block;float:left;width:720px;color:#e52e48;font-size:26px;line-height:26px;}
@@ -113,7 +113,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #home .addon p .btn {margin-top:10px;margin-left:20px;}
 /* -- */
 
-/* lists *
+/* lists */
 .list {}
 .list li {line-height:26px;padding:0 0 0 15px;}
 .list.blue li {background:url(../images/list-blue-li.png) no-repeat center left;}
@@ -123,7 +123,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 .list-icons {}
 .list-icons li {position:relative;padding:0 0 0 40px;}
 .list-icons li img {float:left;position:absolute;top:0;left:0;}
-
+/* lists *
 .list-social {}
 .list-social li {float:left;padding:0 5px 0 0;}
 .list-social li a {background:url(../images/social-icons.png) no-repeat 0 0;height:24px;width:24px;display:block;float:left;}
@@ -174,13 +174,14 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #footer p {font-size:12px; color:#5c4a41;}
 /* -- */
 
-/* parallax elements *
+/* parallax elements */
 #home .pximage1 {background:url(../images/home-image1.png) no-repeat center left;width:398px;position:absolute;top:0;left:-20px;}
 #home .pximage2 {background:url(../images/home-image2.png) no-repeat center left;width:372px;position:absolute;top:0;right:-20px;}
 #home .pximage3 {background:url(../images/home-image3.png) no-repeat center left;width:190px;position:absolute;top:0;left:100px;z-index:3;}
 #home .pximage4 {background:url(../images/home-image4.png) no-repeat center left;width:376px;position:absolute;top:0;left:210px;z-index:2;}
 #home .pximage5 {background:url(../images/home-image5.png) no-repeat center left;width:460px;position:absolute;top:0;left:380px;z-index:1;}
 
+/* parallax elements *
 #about .circles-holder {width:940px;}
 #about .pxarrows {background:url(../images/about-arrows.png) no-repeat top left;width:562px;height:263px;position:absolute;top:0;left:217px;}
 #about .circle {position:absolute;top:0px;}
