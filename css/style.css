@@ -119,11 +119,9 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 .list.blue li {background:url(../images/list-blue-li.png) no-repeat center left;}
 .list.orange li {background:url(../images/list-orange-li.png) no-repeat center left;}
 .list.red li {background:url(../images/list-red-li.png) no-repeat center left;}
-
 .list-icons {}
 .list-icons li {position:relative;padding:0 0 0 40px;}
 .list-icons li img {float:left;position:absolute;top:0;left:0;}
-/* lists *
 .list-social {}
 .list-social li {float:left;padding:0 5px 0 0;}
 .list-social li a {background:url(../images/social-icons.png) no-repeat 0 0;height:24px;width:24px;display:block;float:left;}
@@ -143,14 +141,14 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 .list-social li.behance a:hover {background-position:-144px -24px;}
 /* -- */
 
-/* gallery *
+/* gallery */
 .gallery li {float:left;margin:0 20px 25px 0;}
 .gallery li:nth-child(4n), .gallery li.format {margin-right:0;}
 .gallery li a {border:5px solid #fff;display:block;position:relative;float:left;}
 .gallery li a span {background:url(../images/gallery-li-span.png) no-repeat top left;width:208px;height:123px;position:absolute;top:0;left:0;display:none;}
 /* -- */
 
-/* contact form *
+/* contact form */
 #contact-form {position:relative;}
 #contact-form .row {padding:5px 0;}
 #contact-form .input-text {background:url(../images/form-contact-input-text.png) no-repeat top left;width:202px;height:37px;line-height:37px;padding:0 10px;color:#656565;}
@@ -181,7 +179,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #home .pximage4 {background:url(../images/home-image4.png) no-repeat center left;width:376px;position:absolute;top:0;left:210px;z-index:2;}
 #home .pximage5 {background:url(../images/home-image5.png) no-repeat center left;width:460px;position:absolute;top:0;left:380px;z-index:1;}
 
-/* parallax elements *
+/* parallax elements */
 #about .circles-holder {width:940px;}
 #about .pxarrows {background:url(../images/about-arrows.png) no-repeat top left;width:562px;height:263px;position:absolute;top:0;left:217px;}
 #about .circle {position:absolute;top:0px;}
