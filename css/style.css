@@ -68,7 +68,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #top #menu ul li a:hover, #top #menu ul li.current a {background:url(../images/top-li-a.jpg) repeat-x;border:1px solid #d0cece;padding:0 9px;height:24px;line-height:24px;}
 #top #menu .rounded {border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;position:relative;}
 
-#top #hire {background:url(../images/hire-me.png) no-repeat top left;width:31px;height:77px;position:absolute;top:0;right:0;display:block;cursor:pointer;}
+#top #hire {background:url(../images/hire-us.png) no-repeat top left;width:31px;height:77px;position:absolute;top:0;right:0;display:block;cursor:pointer;}
 
 .shadow {background:url(../images/top-shadow.png) repeat-x;height:35px;position:fixed;top:64px;width:100%;}
 /* -- */
