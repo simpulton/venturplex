@@ -187,7 +187,7 @@ blockquote {background:url(../images/blockquote.png) no-repeat left 8px;padding:
 #about .pxcircle2 {background:url(../images/about-circle2.png) no-repeat center left;width:247px;height:263px;left:256px;}
 #about .pxcircle3 {background:url(../images/about-circle3.png) no-repeat center left;width:219px;height:263px;left:503px;}
 #about .pxcircle4 {background:url(../images/about-circle4.png) no-repeat center left;width:231px;height:263px;left:764px;}
-#about .pximage {position:absolute;top:0;right:0;background:url(../images/about-image.jpg) no-repeat top left;width:354px;height:176px;}
+#about .pximage {position:absolute;top:0;right:0;background:url(../images/about-image.jpg) no-repeat top left;width:354px;height:276px;}
 
 #gallery .pxphoto-left {background:url(../images/gallery-photo-left.png) no-repeat center left;width:368px;height:378px;position:absolute;top:0;left:-200px;}
 #gallery .pxphoto-right {background:url(../images/gallery-photo-right.png) no-repeat top left;width:390px;height:417px;position:absolute;top:0;right:-100px;}
