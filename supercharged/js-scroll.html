@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>CSS Parallax</title>
+    <style type="text/css">
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .layer {
+            position: absolute;
+            width: 100%;
+            height: 256px;
+        }
+
+        #back {
+            background: #3BB9FF url('images/back1.png') 20% 0px;
+        }
+
+        #middle {
+            background: transparent url('images/back2.png') 30% 0px;
+        }
+
+        #front {
+            background: transparent url('images/back3.png') 40% 0px;
+        }
+    </style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var speed = 0,
+                    $back = $('#back'),
+                    $middle = $('#middle'),
+                    $front = $('#front'),
+                    xPos = 0,
+                    $win = $(window);
+
+            $(document).mousemove(function (e) {
+                var halfWidth = $win.width() / 2;
+                // Calculate speed based on mouse position
+                // 0 (center of screen) to 1 at edges
+                speed = e.pageX - halfWidth;
+                speed /= halfWidth;
+            });
+
+            // kill speed on mouseout
+            $(document).mouseleave(function (e) {
+                speed = 0;
+            });
+
+            setInterval(function () {
+                // Update the background position variable
+                xPos += speed;
+
+                $back.css({
+                    backgroundPosition: xPos + 'px 0px'
+                });
+
+                $middle.css({
+
+                    backgroundPosition: (xPos * 2) + 'px 0px'
+                });
+
+                $front.css({
+                    backgroundPosition: (xPos * 3) + 'px 0px'
+                });
+            }, 30);
+        });
+    </script>
+</head>
+<body>
+<div id="back" class="layer"></div>
+<div id="middle" class="layer"></div>
+<div id="front" class="layer"></div>
+</body>
+</html>
